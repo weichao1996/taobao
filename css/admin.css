@@ -1,0 +1,102 @@
+	#header {
+            position: relative;
+            margin: 0 auto 10px;
+            padding: 7px 0 9px;
+            width: 1200px;
+            height: 60px;
+            border-bottom: 2px solid #e6e6e6;
+        }
+
+    #header h1 {
+            position: relative;
+            top: -10px;
+            display: block;
+            float: left;
+            width: 150px;
+            height: 44px;
+        }
+    #header h2 {
+    height: 44px;
+    font-size: 22px;
+    font-family: Î¢ÈíÑÅºÚ;
+    font-weight: 400;
+    float:left;
+}
+#exit{
+	float: right;
+	position:relative;
+	top:25px;
+	font-size:15px;
+}
+#jQueryList{
+	height: 500px;
+}
+	table
+        {	clear: both;
+            border: black solid 1px;
+            border-collapse: collapse;
+        }
+		td
+        {
+            border: black solid 1px;
+            padding: 3px;
+            text-align: center;
+        }
+		th
+        {
+            border: black solid 1px;
+            padding: 3px;
+            text-align: center;
+            background-color: #f40;
+        }
+		a{
+			text-decoration: none;
+			color:#6c6c6c;
+		}
+		a:hover{
+			color:red;
+		}
+		.t1{
+			width: 200px;
+		}
+		.t2,.t3,.t4{
+			width: 300px;
+		}
+		.t5{
+			width: 200px;
+		}
+		.footer {
+    clear:both;
+    position: relative;
+    margin: 60px auto 0;
+    padding: 7px 0 9px;
+    border-top: 1px solid #ddd;
+    width: 1200px;
+    font-size: 12px;
+}
+.footer a {
+    display: inline;
+    float: left;
+    margin: 0 4px;
+    color: #6c6c6c;
+}
+.footer a:hover{
+    color: red;
+}
+.footer em{
+    margin-left: 30px;
+    color: #9c9c9c;
+}
+.footer span {
+    display: inline;
+    float: left;
+    margin: 0 4px;
+    color: #9c9c9c;
+}
+.footer b {
+    display: inline;
+    float: left;
+    margin: 0 3px;
+    font-weight: 400;
+    color: #ddd;
+}

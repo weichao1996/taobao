@@ -1,0 +1,204 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>主页</title>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> <!--jquery库-->
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script><!--jquery库-->
+		<link href="css/图片轮播.css" rel="stylesheet">
+		<script type="text/javascript" src="js/图片轮播.js"></script> 
+		<link rel="stylesheet" type="text/css" href="css/index.css"/><!--主页css-->
+	
+		<script type="text/javascript">
+			$(function(){
+				$(".site-nav-bd").append("欢迎您，"+localStorage.getItem("keyName")+"！");
+			})
+		</script>
+</head>
+
+<body>
+	<!--信息栏-->
+	<div class="site-nav-bd">
+	<a href="register.html" id="register">注册</a>
+	</div>	
+
+	<!--页头-->
+	<div class="head-content">
+		<div id="blank"></div>
+		<h1 class="logo"><a href="index.html"></a></h1>
+		<div>
+			<ul class="nav">
+				<li class="current1"><a href="index.html">首页</a></li>
+				<li class="current2"><a href="#">电影</a></li>
+				<li class="current3"><a href="#">影院</a></li>
+				<li class="current4"><a href="#">榜单</a></li>
+				<li class="current5"><a href="#">热点</a></li>
+			</ul>
+		</div>
+		<div>
+			<ul class="entrance">
+				<li id="item1"><a href="#">手机购买</a></li>
+				<li id="item2"><a href="#">联系客服</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!--图片轮播-->
+	<div class="slider"> 
+		<ul class="slider-main"> 
+			<li class="slider-panel"> 
+				<a href="#"><img src="images/4.png"></a>
+			</li> 
+			<li class="slider-panel"> 
+				<a href="#"><img src="images/5.png"></a>
+			</li> 
+		</ul> 
+		<div class="slider-extra"> 
+			<ul class="slider-nav"> 
+				<li class="slider-item"></li> 
+				<li class="slider-item"></li> 
+			</ul> 
+			<div class="slider-page"> 
+				<a class="slider-pre" href="javascript:;;"><</a> 
+				<a class="slider-next" href="javascript:;;">></a> 
+			</div> 
+		</div> 
+	</div> 
+	
+	<!--购票模块-->
+	<div class="center-wrap">
+        <div class="tab-control tab-movie-tit">
+          <a class="tab-control-item current" href="#">正在热映(27)</a>
+          <a class="tab-control-item" href="#">即将上映(418)</a>
+          <a class="more" href="#">查看全部&nbsp;&gt;</a>
+        </div>
+          <!-- 正在热映 -->
+        <div class="tab-movie-list" style="display: block;">
+            <div class="movie-card-wrap">
+                <a href="#" class="movie-card">
+                    <div class="movie-card-poster">
+                        <img width="160" height="224" src="images/16.jpg">
+                    </div>   
+                </a>
+                <a href="#" class="movie-card-buy">选座购票</a>
+            </div>
+            <div class="movie-card-wrap">
+                <a href="#" class="movie-card">
+                    <div class="movie-card-poster">
+                        <img width="160" height="224" src="images/17.jpg">
+                    </div>
+                </a>
+                <a href="#" class="movie-card-buy">选座购票</a>
+            </div>
+            <div class="movie-card-wrap">
+                <a href="#" class="movie-card">
+                    <div class="movie-card-poster">
+                        <img width="160" height="224" src="images/18.jpg">
+                    </div>
+                </a>
+                <a href="#" class="movie-card-buy">选座购票</a>
+            </div>
+            <div class="movie-card-wrap">
+                <a href="#" class="movie-card">
+                    <div class="movie-card-poster">
+                        <img width="160" height="224" src="images/19.jpg">
+                    </div>
+                </a>
+                <a href="#" class="movie-card-buy">选座购票</a>
+            </div>
+            <div class="movie-card-wrap">
+                <a href="#" class="movie-card">
+                    <div class="movie-card-poster">
+                        <img width="160" height="224" src="images/20.jpg">
+                    </div>
+                </a>
+                <a href="#" class="movie-card-buy">选座购票</a>
+            </div>
+
+        </div>
+    </div>
+
+	<!--页脚-->
+	<div class="footer" style="margin-top:0px">
+		<div class="footWrap">
+			<div class="footMiddle">
+				<div class="footLogo">
+					<a href="index.html"><img src="images/6.jpg"></a>
+					<span>客服热线</span>
+					<span>0571-88157838</span>
+				</div>
+				<dl>
+					<dt>选座购票流程</dt>
+					<dd><a href="#" title="选择影片和场次">选择影片和场次</a></dd>
+					<dd><a href="#" title="选择中意的座位">选择中意的座位</a></dd>
+					<dd><a href="#" title="支付并收到取票短信">支付并收到取票短信</a></dd>
+				</dl>
+				<dl>
+					<dt>取票流程</dt>
+					<dd><a href="#" title="收到取票短信">收到取票短信</a></dd>
+					<dd><a href="#" title="影院自助取票">影院自助取票</a></dd>
+					<dd><a href="#" title="短信重发方式">短信重发方式</a></dd>
+				</dl>
+				<dl>
+					<dt>常见问题</dt>
+					<dd><a href="#" title="是否支持退换票">是否支持退换票</a></dd>
+					<dd><a href="#" title="填错手机号怎么办">填错手机号怎么办</a></dd>
+					<dd><a href="#" title="更多问题>>">更多问题&gt;&gt;</a></dd>
+				</dl>
+				<dl>
+					<dt>协议规范</dt>
+					<dd><a href="#" title="用户服务协议">用户服务协议</a></dd>
+					<dd><a href="#" title="食品管理规范">食品管理规范</a></dd>
+					<dd><a href="#" title="隐私权政策">隐私权政策</a></dd>
+				</dl>
+				<div class="order-code"></div>
+			</div>
+			<div class="footBottom">
+				<img class="img" src="images/9.png">
+				<div class="footer-ali">
+					<a href="#">阿里巴巴集团</a>
+					<b>|</b>
+					<a href="#">阿里巴巴国际站</a>
+					<b>|</b>
+					<a href="#">阿里巴巴中国站</a>
+					<b>|</b>
+					<a href="#">全球速卖通</a>
+					<b>|</b>
+					<a href="#">淘宝网</a>
+					<b>|</b>
+					<a href="#">天猫</a>
+					<b>|</b>
+					<a href="#">聚划算</a>
+					<b>|</b>
+					<a href="#">一淘</a>
+					<b>|</b>
+					<a href="#">阿里妈妈</a>
+					<b>|</b>
+					<a href="#">阿里云计算</a>
+					<b>|</b>
+					<a href="#">云OS</a>
+					<b>|</b>
+					<a href="#">万网</a>
+					<b>|</b>
+					<a href="#">中国雅虎</a>
+					<b>|</b>
+					<a href="#">支付宝</a>
+				</div>
+				<div class="foot-nav">
+					<a href="#">关于淘宝</a>
+					<a href="#">合作伙伴</a>
+					<a href="#">营销中心</a>
+					<a href="#">联系客服</a>
+					<a href="#">开放平台</a>
+					<a href="#">诚征英才</a>
+					<a href="#">联系我们</a>
+					<a href="#">网站地图</a>
+					<a href="#">法律声明</a>
+					<span>© 2017 Taopiaopiao.com 版权所有</span><br>增值电信业务经营许可证：沪B2-20170117 沪ICP备16050036号-1 
+					<a href="#"> 营业执照</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
